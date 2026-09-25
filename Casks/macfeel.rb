@@ -2,8 +2,7 @@ cask "macfeel" do
   version "1.0.0"
   sha256 "f6d8037dcff964cbfb11abaf694bf8413cf8c151f9eb0880ecb5c7eb948f03a8"
 
-  url "https://github.com/ttsalpha/macfeel-app/releases/download/v#{version}/MacFeel-#{version}.dmg",
-      verified: "github.com/ttsalpha/"
+  url "https://github.com/ttsalpha/macfeel-app/releases/download/v#{version}/MacFeel-#{version}.dmg"
   name "MacFeel"
   desc "Turns your MacBook into a scale, protractor, spirit level and light meter"
   homepage "https://macfeel.ttsalpha.com/"

@@ -2,8 +2,7 @@ cask "openwith" do
   version "1.0.0"
   sha256 "42fed71e7cf6012b58b3b421d26d2f82eda8d73b48c6210646e6a038d2180b36"
 
-  url "https://github.com/ttsalpha/openwith-app/releases/download/v#{version}/OpenWith-#{version}.dmg",
-      verified: "github.com/ttsalpha/"
+  url "https://github.com/ttsalpha/openwith-app/releases/download/v#{version}/OpenWith-#{version}.dmg"
   name "OpenWith"
   desc "Browser picker that opens at the pointer for every link"
   homepage "https://github.com/ttsalpha/openwith-app"
